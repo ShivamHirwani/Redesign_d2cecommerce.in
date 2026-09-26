@@ -68,3 +68,14 @@ export const stats = [
   { value: 25, suffix: "+", label: "Categories" },
   { value: 15, suffix: "+", label: "Brands" },
 ];
+
+export const products = [
+  { name: "Premium Wireless Earbuds", brand: "D2C Vision", mrp: 1499, price: 799, tag: "Best Seller" },
+  { name: "Statement Choker Necklace", brand: "AccessHer", mrp: 1999, price: 1299, tag: "Trending" },
+  { name: "Gold Plated Bangles Set", brand: "AccessHer", mrp: 2499, price: 1699, tag: "New" },
+  { name: "Gold Plated Invisible Earring Support Chains", brand: "AccessHer", mrp: 1499, price: 399, tag: "Flash Sale" },
+  { name: "Gold Plated American Diamond Ear Cuffs (Pack of 1)", brand: "AccessHer", mrp: 3672, price: 369, tag: "Flash Sale" },
+  { name: "Gold Plated Floral Jhumki Earrings", brand: "AccessHer", mrp: 1999, price: 437, tag: "Flash Sale" },
+  { name: "Everyday Comfort Sneakers", brand: "Endless Steps", mrp: 2199, price: 1099, tag: "New" },
+  { name: "Active Fit Gym Kit", brand: "Kasrat", mrp: 1799, price: 999, tag: "Trending" },
+];

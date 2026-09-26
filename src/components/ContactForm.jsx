@@ -2,9 +2,9 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 
-const SERVICE_ID = import.meta.env.EMAILJS_SERVICE_ID;
-const TEMPLATE_ID = import.meta.env.EMAILJS_TEMPLATE_ID;
-const PUBLIC_KEY = import.meta.env.EMAILJS_PUBLIC_KEY;
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 export default function ContactForm() {
   const formRef = useRef(null);

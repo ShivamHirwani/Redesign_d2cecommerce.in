@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-canvas text-ink font-sans antialiased;
+}
+
+::selection {
+  background: #c9b4fa;
+  color: #1b1938;
+}
+
+.section {
+  @apply py-24;
+}
+
+.wrap {
+  @apply max-w-6xl mx-auto px-6;
+}
+
+.kicker {
+  @apply text-xs font-bold uppercase tracking-wider text-teal-deep mb-3;
+}
+
+.h2 {
+  @apply text-3xl md:text-5xl font-semibold tracking-tight leading-tight text-ink;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center gap-2 font-bold text-sm px-6 py-3.5 rounded-xl transition-transform hover:-translate-y-0.5;
+}
+.btn-violet {
+  @apply bg-violet text-primary;
+}
+.btn-outline-dark {
+  @apply bg-transparent text-white border border-white/25;
+}
+.btn-primary {
+  @apply bg-primary text-white hover:bg-primary-deep;
+}
+.btn-teal {
+  @apply bg-white text-teal-deep;
+}
